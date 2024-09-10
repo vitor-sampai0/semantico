@@ -1,12 +1,198 @@
-body{
-    background-color: aqua;
-    color: brown;
-    line-height: 1.6;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+    }
+    
+    
+    body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;  
+    background-color: #0066ff;  
+    color: #333;
+    }
+    
+    
+    .site-header {  
+    background-color: #333;
+    color: #fff;  
+    padding: 20px;  
+    text-align: center;
+    }
+    
+    
+    .site-title {  
+    margin-bottom: 10px;
+    font-size: 2em;  
+    }  
+    
+    
+    .main-nav .nav-list {
+    list-style: none;
+    display: flex;  
+    justify-content: center;
+    }
+    
+    
+    .main-nav .nav-item {  
+    margin: 0 15px;  
+    }
+    
+    
+    .main-nav .nav-link {  
+    color: #fff;  
+    text-decoration: none;  
+    font-weight: bold;  
+    transition: color 0.3s;
+    }
+    
+    
+    .main-nav .nav-link:hover {
+    color: #fffb00;  
+    }
+    
+    
+    .main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+    }
+    
+    
+    .article {
+    flex: 3;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    }
+    
+    
+    .article-header {
+    border-bottom: 2px solid #eee;  
+    margin-bottom: 15px;  
+    padding-bottom: 10px;
+    }
+    
+    
+    .article-title {
+    color: #333;
+    font-size: 1.8em;
+    margin-bottom: 5px;
+    }
+    
+    
+    .article-meta {
+    color: #777;
+    font-size: 0.9em;
+    }
+    
+    
+    .article-section {
+    margin-bottom: 20px;
+    }
+    
+    
+    .section-title {
+    font-size: 1.4em; color: #555;
+    margin-bottom: 10px;
+    }
+    
+    
+    .section-text {
+    margin-bottom: 15px;
+    color: #444;
+    line-height: 1.8;
+    }
+       
+    .image-figure {
+    margin: 20px 0;
+    }
+    
+    
+    .article-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 3px;
+    }
+    
+    
+    .image-caption {
+    text-align: center;
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+    }
+    
+    
+    .article-footer {
+    border-top: 2px solid #eee;
+    margin-top: 15px;
+    padding-top: 10px;
+    color: #777;
+    font-size: 0.9em;
+    }
+    
+    
+    .sidebar {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    }
+    
+    
+    .sidebar-title {
+    font-size: 1.6em;
+    color: #333;
+    margin-bottom: 10px;
+    }
+    
+    
+    .sidebar-text {
+    color: #555;  
+    line-height: 1.6;
+    }
+    
+    
+    .site-footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+    }
+    
+    
+    .contact-info {
+    margin-bottom: 10px;
+    }
+    
+    
+    .author-name, .author-email {
+    margin-bottom: 5px;
+    }
+    
+    
+    .email-link {
+    color: #1e90ff;
+    text-decoration: none;
+    transition: color 0.3s;
+    }
+    
+    
+    .email-link:hover {  
+    color: #fff;
+    }
+    
+    
+    .footer-copy {
+    font-size: 0.9em;
+    color: #ccc;  
+    }
+    
